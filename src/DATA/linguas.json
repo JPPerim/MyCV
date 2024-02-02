@@ -2,11 +2,13 @@
     "linguas":[
     {
         "lingua":"Ingles",
-        "proficiencia":"Avançado"
+        "proficiencia":"Avançado",
+        "bandeira":"US"
     },
     {
         "lingua":"Portugues",
-        "proficiencia":"Nativo"
+        "proficiencia":"Nativo",
+        "bandeira":"BR"
     }
     ]
 }

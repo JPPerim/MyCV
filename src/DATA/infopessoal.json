@@ -2,7 +2,9 @@
     "InfoPessoal":{
         "birth_date":"1995-10-13",
         "name":"João Puff Perim",
+        "nacionalidade":"Brasileiro",
         "social_status":"solteiro",
+        "nacionalidade_code":"BR",
         "contacts":[
         {
             "platform":"email",

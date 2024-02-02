@@ -7,8 +7,9 @@ import Description from './Description';
 import { SocialIcon } from 'react-social-icons';
 import PersonalData from './DATA/infopessoal.json';
 import Linguas from './linguas';
+import Flag from 'react-world-flags';
 
-function MyAge(birth_date,social_status){
+function MyAge(birth_date,social_status,nacionality,flag_code){
   const birthday = new Date(birth_date);
   const today = new Date();
   let age = today.getFullYear() - birthday.getFullYear();
@@ -20,7 +21,9 @@ function MyAge(birth_date,social_status){
 
   return(
     <div>
-      <p>Brasileiro, {age} anos, {social_status}.</p>
+      <Flag code={flag_code} height="30px"/>
+      <p>{nacionality}, {age} anos, {social_status}.</p>
+      
     </div>
   );
 }
@@ -62,16 +65,17 @@ function InformacoesPessoais({ InfoPessoal }) {
 }
 
 function App() {
-  console.log(PersonalData.InfoPessoal.name)
-  var name = PersonalData.InfoPessoal.name
-  var birth_date = PersonalData.InfoPessoal.birth_date
-  var social_status = PersonalData.InfoPessoal.social_status
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={ProfilePic} alt="João Puff Perim - DataFoto" style={{ height:"350px"}}/>
-        <h1>{name}</h1>
-        <p className='myage_social_status'>{MyAge(birth_date,social_status)}</p>
+        <h1>{PersonalData.InfoPessoal.name}</h1>
+        <p className='myage_social_status'>{MyAge
+          (
+           PersonalData.InfoPessoal.birth_date,PersonalData.InfoPessoal.social_status,PersonalData.InfoPessoal.nacionalidade,PersonalData.InfoPessoal.nacionalidade_code
+          )}
+        </p>
         <div>
           <Description/>
         </div>
