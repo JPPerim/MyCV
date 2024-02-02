@@ -68,3 +68,6 @@
 .social-icon {
   margin: 0 10px; /* Adds spacing between icons */
 }
+.NameProfile{
+  text-transform: uppercase;
+}

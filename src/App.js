@@ -69,8 +69,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={ProfilePic} alt="João Puff Perim - DataFoto" style={{ height:"350px"}}/>
-        <h1>{PersonalData.InfoPessoal.name}</h1>
+        <img src={ProfilePic} alt="Profile Foto" style={{ height:"350px"}}/>
+        <h1 className='NameProfile'>{PersonalData.InfoPessoal.name}</h1>
         <p className='myage_social_status'>{MyAge
           (
            PersonalData.InfoPessoal.birth_date,PersonalData.InfoPessoal.social_status,PersonalData.InfoPessoal.nacionalidade,PersonalData.InfoPessoal.nacionalidade_code
