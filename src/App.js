@@ -6,7 +6,7 @@ import Education from './education';
 import Description from './Description';
 import { SocialIcon } from 'react-social-icons';
 import PersonalData from './DATA/infopessoal.json';
-
+import Linguas from './linguas';
 
 function MyAge(birth_date,social_status){
   const birthday = new Date(birth_date);
@@ -43,7 +43,6 @@ function InformacoesPessoais({ InfoPessoal }) {
       );
     } catch (error) {
       // Display platform and link on error
-      console.error("Error rendering contact information:", error);
       return (
         <div key={index} className="social-icon">
           <p>{`${contact.platform}: ${contact.link}`}</p>
@@ -83,6 +82,9 @@ function App() {
         </div>
         <div>
           <Education/>
+        </div>
+        <div>
+          <Linguas/>
         </div>
         <div>
           <Skills/>

@@ -1,0 +1,12 @@
+{
+    "linguas":[
+    {
+        "lingua":"Ingles",
+        "proficiencia":"Avançado"
+    },
+    {
+        "lingua":"Portugues",
+        "proficiencia":"Nativo"
+    }
+    ]
+}
