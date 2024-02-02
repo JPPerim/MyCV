@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/JPPerim/MyCV/static/css/main.b5af0d33.css",
+    "main.js": "/JPPerim/MyCV/static/js/main.14b759f6.js",
+    "static/js/592.77751a5b.chunk.js": "/JPPerim/MyCV/static/js/592.77751a5b.chunk.js",
+    "static/media/FotoPerfil.jpg": "/JPPerim/MyCV/static/media/FotoPerfil.d1be3753916bd884beea.jpg",
+    "index.html": "/JPPerim/MyCV/index.html",
+    "main.b5af0d33.css.map": "/JPPerim/MyCV/static/css/main.b5af0d33.css.map",
+    "main.14b759f6.js.map": "/JPPerim/MyCV/static/js/main.14b759f6.js.map",
+    "592.77751a5b.chunk.js.map": "/JPPerim/MyCV/static/js/592.77751a5b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5af0d33.css",
+    "static/js/main.14b759f6.js"
+  ]
+}
