@@ -1,0 +1,56 @@
+{
+    "educationAndCourses": [
+      {
+        "type": "Graduation",
+        "field": "Engenharia Elétrica",
+        "institution": "Universidade Veiga de Almeida",
+        "completionDate": "June 2024"
+      },
+      {
+        "type": "Training",
+        "field": "API Management",
+        "institution": "Axway",
+        "year": "2022"
+      },
+      {
+        "type": "Training",
+        "field": "RPA",
+        "institution": "Provider IT",
+        "year": "2022"
+      },
+      {
+        "type": "Training",
+        "field": ".Net",
+        "institution": "Provider-IT",
+        "year": "2022"
+      },
+      {
+        "type": "Introductory Course",
+        "field": "HTML & Javascript",
+        "institution": "Provider IT",
+        "year": "2021"
+      },
+      {
+        "type": "Course",
+        "field": "Desenho Mecânico",
+        "institution": "Curso Oberg",
+        "location": "Rio de Janeiro, RJ",
+        "year": "2017"
+      },
+      {
+        "type": "Language Course",
+        "field": "Inglês",
+        "institution": "Cultura Inglesa",
+        "location": "Belo Horizonte, MG",
+        "year": "2012"
+      },
+      {
+        "type": "Certification",
+        "field": "Mergulho Autônomo—Águas Abertas",
+        "institution": "Maramar",
+        "location": "Belo Horizonte, MG",
+        "year": "2009"
+      }
+    ]
+  }
+  

@@ -1,0 +1,21 @@
+{
+    "InfoPessoal":{
+        "birth_date":"1995-10-13",
+        "name":"João Puff Perim",
+        "social_status":"solteiro",
+        "contacts":[
+        {
+            "platform":"email",
+            "link":"joaopuffperimcv@gmail.com"
+        },
+        {
+            "platform":"git",
+            "link":"https://github.com/JPPerim?tab=repositories"
+        },
+        {
+            "platform":"linkedin",
+            "link":"https://www.linkedin.com/in/joão-puff-perim-6858611a0/?originalSubdomain=br"
+        }
+        ]
+    }
+}

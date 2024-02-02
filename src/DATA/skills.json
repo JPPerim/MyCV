@@ -1,0 +1,16 @@
+{
+    "skills": [
+      {
+        "category": "Linguagens de Programação",
+        "items": ["JavaScript", "Python","HTML"]
+      },
+      {
+        "category": "RPA Tools",
+        "items": ["Power Automate","UIpath","Automation Edge"]
+      },
+      {
+        "category": "Tools",
+        "items": ["Pacote Office", "Excel VBA","Git","Autocad","SolidWorks"]
+      }
+    ]
+  }

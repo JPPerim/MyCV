@@ -1,0 +1,26 @@
+/* education.css */
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates a 3-column layout */
+    gap: 20px; /* Adjust the gap between grid items as needed */
+    margin-bottom: 20px; /* Optional: Adds space below the grid */
+  }
+  
+  .education-entry {
+    border: 1px solid #ccc; /* Optional: Adds a border around each grid item */
+    padding: 10px; /* Optional: Adds some padding inside the grid items */
+    border-radius: 5px; /* Optional: Rounds the corners of the grid items */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .education-grid {
+      grid-template-columns: repeat(2, 1fr); /* Switches to a 2-column layout for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .education-grid {
+      grid-template-columns: 1fr; /* Single column layout for very small screens */
+    }
+  }
+  

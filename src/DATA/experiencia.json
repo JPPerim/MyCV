@@ -1,0 +1,39 @@
+{
+    "professionalExperience": [
+      {
+        "company": "Provider-IT",
+        "period": "Agosto/2022 - Present",
+        "role": "Trainee",
+        "location": "Rio De Janeiro/RJ",
+        "responsibilities": [
+          "Contribuí para o desenvolvimento de uma plataforma de controle de recursos humanos, onde participei tanto do front-end em React quanto o back-end em Java.",
+          "Participei ativamente na arquitetura e implementação de robôs autônomos criados no Power Automate para o peticionamento de processos em sites jurídicos, incluindo PJE, TJRJ e Projudi, totalizando mais de 10 bots criados.",
+          "Atualmente, estou alocado na Azul Seguros, focando no desenvolvimento de um bot no UIPath dedicado ao pagamento e avaliação de notas de sinistros dentro da plataforma SOMA da Porto Seguro."
+        ]
+      },
+      {
+        "company": "Kern Processos Industriais Ltda",
+        "period": "Janeiro/2018 - Dezembro/2018",
+        "role": "Auxiliar Técnico (estágio)",
+        "location": "Carmópolis, SE",
+        "responsibilities": [
+          "Obra: Petrobras - Construção de Dutos de EPOXI/FV do Sistema de Combate a Incêndio e Gasoduto em Aço Carbono, no Campo Ativo de Produção Sergipe Terra - Carmópolis – SE.",
+          "Criei uma planilha em Excel de fácil preenchimento (utilizando VBA), para acompanhamento e controle da escavação, lançamento, fechamento e teste das linhas de dutos.",
+          "Fui responsável por identificar nos projetos em CAD (MicroStation e AutoCad) as interferências encontradas na sondagem pelo Georadar nas linhas a serem construídas.",
+          "Auxiliei e participei da criação das apresentações semanais de andamento da obra (ROAP) para e Petrobras. Apresentei para a gerência da Petrobras a planilha para acompanhamento e controle."
+        ]
+      },
+      {
+        "company": "Kern Processos Industriais Ltda",
+        "period": "Janeiro/2017 - Dezembro/2017",
+        "role": "Estagiário de Engenharia",
+        "location": "Juiz de Fora, MG",
+        "responsibilities": [
+          "Obra: Votorantim Metais - Construção e Montagem da Planta de Remoção de Gargalos da Desalogenação - Juiz de Fora – MG.",
+          "Fui responsável pela criação e organização de uma planilha para controle de Homem Hora (HH) e controle das equipes destinadas a cada encarregado.",
+          "Acompanhei de perto os processos de soldagem por eletrodo revestido e MIG, A fabricação e instalação de estruturas metálicas.",
+          "Em conjunto com o Gerente da Obra e orientado por um dos encarregados de mecânica, criei um procedimento que detalhava a montagem de tanques cilíndricos de aço carbono."
+        ]
+      }
+    ]
+  }
